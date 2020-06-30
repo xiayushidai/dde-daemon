@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+"http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+	<vendor>LinuxDeepin</vendor>
+	<vendor_url>https://www.deepin.com/</vendor_url>
+	<action id="com.deepin.daemon.fprintd.enroll">
+		<description>Add fingerprint password</description>
+		<message>Authentication is required to add fingerprint password</message>
+		<defaults>
+			<allow_any>no</allow_any>
+			<allow_inactive>no</allow_inactive>
+			<allow_active>auth_admin_keep</allow_active>
+		</defaults>
+		<description xml:lang="ru">Добавить пароль по отпечатку пальца</description>
+		<message xml:lang="ru">Требуется аутентификация для добавления пароля по отпечатку пальца</message>
+		<description xml:lang="zh_TW">新增指紋密碼</description>
+		<message xml:lang="zh_TW">需要身份驗證才可新增指紋密碼</message>
+		<description xml:lang="ro">Adaugă parolă amprentă</description>
+		<message xml:lang="ro">Autentificare necesară pentru adăugare parolă amprentă</message>
+		<description xml:lang="uk">Додавання пароля до відбитка</description>
+		<message xml:lang="uk">Для додавання пароля до відбитка слід пройти розпізнавання</message>
+		<description xml:lang="lt">Pridėti piršto atspaudo slaptažodį</description>
+		<message xml:lang="lt">Norint pridėti piršto atspaudo slaptažodį, reikalingas tapatybės nustatymas</message>
+		<description xml:lang="fa">اضافه کردن رمزعبور اثر انگشت</description>
+		<message xml:lang="fa">برای اضافه کردن رمزعبور اثر انگشت ، احراز هویت لازم است</message>
+		<description xml:lang="it">Aggiungi impronta digitale come password</description>
+		<message xml:lang="it">Autenticazione richiesta per aggiungere l'impronta digitale come password</message>
+		<description xml:lang="ja">指紋パスワードを追加</description>
+		<message xml:lang="ja">指紋パスワードを追加するには認証が必要です</message>
+		<description xml:lang="cs">Přidat heslo otiskem prstu</description>
+		<message xml:lang="cs">Pro přidání hesla otiskem prstu je požadováno ověření se</message>
+		<description xml:lang="ca">Afegiu una contrasenya d'empremta</description>
+		<message xml:lang="ca">Cal autenticació per afegir una contrasenya d'empremta.</message>
+		<description xml:lang="sv">Lägg till fingeravtryck</description>
+		<message xml:lang="sv">Autentisering krävs för att lägga till fingeravtryck</message>
+		<description xml:lang="hu">Ujjlenyomat hozzáadása</description>
+		<message xml:lang="hu">Hitelesítés szükséges az ujjlenyomat hozzáadásához</message>
+		<description xml:lang="sr">Додај отисак лозинку</description>
+		<message xml:lang="sr">Идентификација је неопходна да додате отисак лозинку</message>
+		<description xml:lang="es">Añadir contraseña de huella dactilar</description>
+		<message xml:lang="es">Se requiere autenticación para añadir contraseña de huella dactilar</message>
+		<description xml:lang="tr">Parmak izi parolası ekle</description>
+		<message xml:lang="tr">Parmak izi parolası eklemek için kimlik doğrulaması gerekli</message>
+		<description xml:lang="en_AU">Add fingerprint password</description>
+		<message xml:lang="en_AU">Authentication is required to add fingerprint password</message>
+		<description xml:lang="pt_BR">Adicionar impressão digital</description>
+		<message xml:lang="pt_BR">A autenticação é necessária para adicionar a impressão digital</message>
+		<description xml:lang="de">Fingerabdruckpasswort hinzufügen</description>
+		<message xml:lang="de">Zum Hinzufügen des Fingerabdruckpassworts ist eine Authentifizierung erforderlich</message>
+		<description xml:lang="fr">Ajouter une empreinte digitale comme mot de passe</description>
+		<message xml:lang="fr">Une authentification est requise pour ajouter une empreinte digitale comme mot de passe</message>
+		<description xml:lang="pt">Adicionar palavra-passe de impressão digital</description>
+		<message xml:lang="pt">É necessária a autenticação para adicionar palavra-passe de impressão digital</message>
+		<description xml:lang="da">Tilføj fingeraftryksadgangskode</description>
+		<message xml:lang="da">Der kræves autentifikation for at tilføje fingeraftryksadgangskode</message>
+		<description xml:lang="fi">Lisää sormenjälki salasanaksi</description>
+		<message xml:lang="fi">Sormenjälkitunnuksen lisääminen edellyttää todennusta</message>
+		<description xml:lang="vi">Thêm dấu vân tay</description>
+		<message xml:lang="vi">Yêu cầu xác thực để thêm vân tay</message>
+		<description xml:lang="pl">Dodaj hasło linii papilarnych</description>
+		<message xml:lang="pl">Do dodania hasła linii papilarnych wymagane jest uwierzytelnienie</message>
+		<description xml:lang="ko">지문 암호 추가</description>
+		<message xml:lang="ko">지문 암호를 추가하려면 인증이 필요합니다</message>
+		<description xml:lang="zh_CN">添加指纹密码</description>
+		<message xml:lang="zh_CN">添加指纹需要认证</message>
+		<description xml:lang="hr">Dodaj lozinku otiska prsta</description>
+		<message xml:lang="hr">Potrebna je ovjera za dodavanje lozinke otiska prsta</message>
+		<description xml:lang="ar">إضافة كلمة مرور ببصمة الأصبع</description>
+		<message xml:lang="ar">المصادقة ضرورية لإضافة كلمة مرور بالبصمة</message>
+	</action>
+	<action id="com.deepin.daemon.fprintd.delete-enrolled-fingers">
+		<description>Clear fingerprint passwords</description>
+		<message>Authentication is required to clear fingerprint passwords</message>
+		<defaults>
+			<allow_any>no</allow_any>
+			<allow_inactive>no</allow_inactive>
+			<allow_active>auth_admin_keep</allow_active>
+		</defaults>
+		<description xml:lang="ru">Очистка паролей по отпечатку пальца</description>
+		<message xml:lang="ru">Требуется аутентификация для  очистки паролей по отпечатку пальца</message>
+		<description xml:lang="zh_TW">清除指紋密碼</description>
+		<message xml:lang="zh_TW">需要身份驗證才可清除指紋密碼</message>
+		<description xml:lang="ro">Ștergere parolă amprentă</description>
+		<message xml:lang="ro">Autentificare necesară pentru ştergere parolă amprentă</message>
+		<description xml:lang="uk">Вилучення паролів до відбитків</description>
+		<message xml:lang="uk">Для вилучення паролів до відбитків слід пройти розпізнавання</message>
+		<description xml:lang="lt">Išvalyti piršto atspaudo slaptažodžius</description>
+		<message xml:lang="lt">Norint išvalyti piršto atspaudo slaptažodžius, reikalingas tapatybės nustatymas</message>
+		<description xml:lang="fa">رمزهای عبور اثر انگشت را پاک کن</description>
+		<message xml:lang="fa">برای پاک کردن رمزهای عبور اثر انگشت ، احراز هویت لازم است</message>
+		<description xml:lang="it">Cancella impronte digitali utilizzare come password</description>
+		<message xml:lang="it">Autenticazione richiesta per eliminare l'impronta digitale come password</message>
+		<description xml:lang="ja">指紋パスワードを削除</description>
+		<message xml:lang="ja">指紋パスワードを削除するには認証が必要です</message>
+		<description xml:lang="cs">Smazat hesla otiskem prstu</description>
+		<message xml:lang="cs">Pro smazání hesel otiskem prstu je požadováno ověření se</message>
+		<description xml:lang="ca">Neteja les contrasenyes d'empremta</description>
+		<message xml:lang="ca">Cal autenticació per netejar contrasenyes d'empremta.</message>
+		<description xml:lang="sv">Radera fingeravtryck</description>
+		<message xml:lang="sv">Autentisiering krävs för att radera fingeravtryck</message>
+		<description xml:lang="hu">Ujjlenyomatok törlése</description>
+		<message xml:lang="hu">Hitelesítés szükséges az ujjlenyomatok törléséhez</message>
+		<description xml:lang="sr">Обриши отисак лозинку</description>
+		<message xml:lang="sr">Идентификација је неопходна да обришете отисак лозинку</message>
+		<description xml:lang="es">Borrar contraseñas de huellas dactilares</description>
+		<message xml:lang="es">Se requiere autenticación para borrar contraseñas de huellas dactilares.</message>
+		<description xml:lang="tr">Parmak izi parolalarını temizle</description>
+		<message xml:lang="tr">Parmak izi parolalarını silmek için kimlik doğrulaması gerekli</message>
+		<description xml:lang="en_AU">Clear fingerprint passwords</description>
+		<message xml:lang="en_AU">Authentication is required to clear fingerprint passwords</message>
+		<description xml:lang="pt_BR">Remover as impressões digitais</description>
+		<message xml:lang="pt_BR">A autenticação é necessária para remover as impressões digitais</message>
+		<description xml:lang="de">Fingerabdruckpasswörter löschen</description>
+		<message xml:lang="de">Zum Löschen von Fingerabdruckpasswörtern ist eine Authentifizierung erforderlich</message>
+		<description xml:lang="fr">Effacer les empreintes digitales enregistrées</description>
+		<message xml:lang="fr">Une authentification est requise pour effacer les empreintes digitales enregistrées</message>
+		<description xml:lang="pt">Limpar palavras-passe de impressão digital</description>
+		<message xml:lang="pt">É necessária a autenticação para limpar palavras-passe de impressões digitais</message>
+		<description xml:lang="da">Ryd fingeraftryksadgangskoder</description>
+		<message xml:lang="da">Der kræves autentifikation for at rydde fingeraftryksadgangskoder</message>
+		<description xml:lang="fi">Tyhjennä sormenjäljet</description>
+		<message xml:lang="fi">Sormenjälkien tyhjentäminen edellyttää todennusta</message>
+		<description xml:lang="vi">Xoá dấu vân tay</description>
+		<message xml:lang="vi">Yêu cầu xác thực để xoá dấu vân tay</message>
+		<description xml:lang="pl">Wyczyść hasła odcisków palców</description>
+		<message xml:lang="pl">Do wyczyszczenia haseł odcisków palców wymagane jest uwierzytelnienie</message>
+		<description xml:lang="ko">지문 암호 지우기</description>
+		<message xml:lang="ko">지문 암호를 지우려면 인증이 필요합니다</message>
+		<description xml:lang="zh_CN">清除指纹密码</description>
+		<message xml:lang="zh_CN">清除指纹需要认证</message>
+		<description xml:lang="hr">Očisti lozinke otiska prsta</description>
+		<message xml:lang="hr">Potrebna je ovjera za čišćenje lozinki otiska prsta</message>
+		<description xml:lang="ar">حذف كلمات المرور بالبصمة</description>
+		<message xml:lang="ar">المصادقة ضرورية لحذف كلمات المرور بالبصمة</message>
+	</action>
+	<action id="com.deepin.daemon.fprintd.rename-enrolled-finger">
+		<description>Rename fingerprint password</description>
+		<message>Authentication is required to rename fingerprint password</message>
+		<defaults>
+			<allow_any>no</allow_any>
+			<allow_inactive>no</allow_inactive>
+			<allow_active>auth_admin_keep</allow_active>
+		</defaults>
+		<description xml:lang="ru">Переименовать пароль отпечатка пальца</description>
+		<message xml:lang="ru">Требуется аутентификация для переименования пароля отпечатка пальца</message>
+		<description xml:lang="zh_TW">重命名指紋密碼</description>
+		<message xml:lang="zh_TW">重命名指紋需要認證</message>
+		<description xml:lang="uk">Зміна пароля до відбитка</description>
+		<message xml:lang="uk">Для зміни пароля до відбитка слід пройти розпізнавання</message>
+		<description xml:lang="it">Rinomina l'impronta digitale</description>
+		<message xml:lang="it">Autenticazione richiesta per rinominare l'impronta digitale</message>
+		<description xml:lang="cs">Přejmenovat heslo zastupované otiskem prstu</description>
+		<message xml:lang="cs">Pro přejmenování hesla, zastupovaného otiskem prstu, je požadováno ověření se</message>
+		<description xml:lang="ca">Canvia de nom la contrasenya d'empremta</description>
+		<message xml:lang="ca">Cal autenticació per canviar de nom una contrasenya d'empremta.</message>
+		<description xml:lang="sr">Преименуј отисак лозинку</description>
+		<message xml:lang="sr">Идентификација је неопходна да преименујете отисак лозинку</message>
+		<description xml:lang="es">Renombrar contraseña de huella dactilar</description>
+		<message xml:lang="es">Se requiere autenticación para renombrar la contraseña huella dactilar</message>
+		<description xml:lang="tr">Parmak izi parolasını yeniden adlandır</description>
+		<message xml:lang="tr">Parmak izi parolasını yeniden adlandırmak için kimlik doğrulaması gerekli</message>
+		<description xml:lang="pt_BR">Renomear impressão digital</description>
+		<message xml:lang="pt_BR">A autenticação é necessária para renomear a impressão digital</message>
+		<description xml:lang="de">Fingerabdruckpasswort umbenennen</description>
+		<message xml:lang="de">Zum Umbenennen des Fingerabdruckpassworts ist eine Authentifizierung erforderlich</message>
+		<description xml:lang="fr">Changer le mot de passe d'une empreinte digitale</description>
+		<message xml:lang="fr">Une authentification est requise pour changer le mot de passe d'une empreinte digitale</message>
+		<description xml:lang="pt">Renomear a palavra-passe de impressão digital</description>
+		<message xml:lang="pt">É necessária a autenticação para renomear a palavra-passe de impressão digital</message>
+		<description xml:lang="da">Omdøb fingeraftryksadgangskode</description>
+		<message xml:lang="da">Der kræves autentifikation for at omdøbe fingeraftryksadgangskode</message>
+		<description xml:lang="fi">Nimeä sormenjäljen salasana uudelleen</description>
+		<message xml:lang="fi">Nimeä sormenjälki uudelleen, tämä vaatii tunnistautumisen</message>
+		<description xml:lang="vi">Đổi tên mật khẩu vân tay</description>
+		<message xml:lang="vi">Yêu cầu xác thực để đổi tên mật khẩu vân tay</message>
+		<description xml:lang="pl">Zmień nazwę hasła linii papilarnych</description>
+		<message xml:lang="pl">Uwierzytelnienie jest wymagane do zmiany nazwy hasła linii papilarnych</message>
+		<description xml:lang="ko">지문 암호 이름 변경</description>
+		<message xml:lang="ko">지문 암호의 이름을 변경하려면 인증이 필요함</message>
+		<description xml:lang="zh_CN">重命名指纹密码</description>
+		<message xml:lang="zh_CN">重命名指纹需要认证</message>
+		<description xml:lang="hr">Preimenuj lozinku otiska prsta</description>
+		<message xml:lang="hr">Potrebna je ovjera za preimenovanje lozinke otiska prsta</message>
+		<description xml:lang="ar">إعادة تسمية كلمة المرور بالبصمة</description>
+		<message xml:lang="ar">المصادقة ضرورية لإعادة تسمية كلمة المرور بالبصمة</message>
+	</action>
+</policyconfig>

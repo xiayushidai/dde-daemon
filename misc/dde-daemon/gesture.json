@@ -1,0 +1,173 @@
+[
+    {
+        "Name": "swipe",
+        "Direction": "up",
+        "Fingers": 3,
+        "Action": {
+            "Type": "built-in",
+            "Action": "ToggleMaximize"
+        }
+    },
+    {
+        "Name": "swipe",
+        "Direction": "down",
+        "Fingers": 3,
+        "Action": {
+            "Type": "built-in",
+            "Action": "ToggleMaximize"
+        }
+    },
+    {
+        "Name": "swipe",
+        "Direction": "left",
+        "Fingers": 3,
+        "Action": {
+            "Type": "built-in",
+            "Action": "SplitWindowLeft"
+        }
+    },
+    {
+        "Name": "swipe",
+        "Direction": "right",
+        "Fingers": 3,
+        "Action": {
+            "Type": "built-in",
+            "Action": "SplitWindowRight"
+        }
+    },
+    {
+        "Name": "pinch",
+        "Direction": "in",
+        "Fingers": 3,
+        "Action": {
+            "Type": "built-in",
+            "Action": "ShowWindow"
+        }
+    },
+    {
+        "Name": "pinch",
+        "Direction": "out",
+        "Fingers": 3,
+        "Action": {
+            "Type": "built-in",
+            "Action": "ShowWindow"
+        }
+    },
+    {
+        "Name": "tap",
+        "Direction": "none",
+        "Fingers": 3,
+        "Action": {
+            "Type": "built-in",
+            "Action": "MoveWindow"
+        }
+    },
+    {
+        "Name": "swipe",
+        "Direction": "up",
+        "Fingers": 4,
+        "Action": {
+            "Type": "built-in",
+            "Action": "ShowWorkspace"
+        }
+    },
+    {
+        "Name": "swipe",
+        "Direction": "down",
+        "Fingers": 4,
+        "Action": {
+            "Type": "built-in",
+            "Action": "ShowWorkspace"
+        }
+    },
+    {
+        "Name": "swipe",
+        "Direction": "left",
+        "Fingers": 4,
+        "Action": {
+            "Type": "built-in",
+            "Action": "ReverseSwitchWorkspace"
+        }
+    },
+    {
+        "Name": "swipe",
+        "Direction": "right",
+        "Fingers": 4,
+        "Action": {
+            "Type": "built-in",
+            "Action": "SwitchWorkspace"
+        }
+    },
+    {
+        "Name": "pinch",
+        "Direction": "in",
+        "Fingers": 4,
+        "Action": {
+            "Type": "commandline",
+            "Action": "dbus-send --type=method_call --dest=com.deepin.dde.Launcher /com/deepin/dde/Launcher com.deepin.dde.Launcher.Toggle"
+        }
+    },
+    {
+        "Name": "pinch",
+        "Direction": "out",
+        "Fingers": 4,
+        "Action": {
+            "Type": "commandline",
+            "Action": "/usr/lib/deepin-daemon/desktop-toggle"
+        }
+    },
+    {
+        "Name": "swipe",
+        "Direction": "up",
+        "Fingers": 5,
+        "Action": {
+            "Type": "built-in",
+            "Action": "ShowWorkspace"
+        }
+    },
+    {
+        "Name": "swipe",
+        "Direction": "down",
+        "Fingers": 5,
+        "Action": {
+            "Type": "built-in",
+            "Action": "ShowWorkspace"
+        }
+    },
+    {
+        "Name": "swipe",
+        "Direction": "left",
+        "Fingers": 5,
+        "Action": {
+            "Type": "built-in",
+            "Action": "ReverseSwitchWorkspace"
+        }
+    },
+    {
+        "Name": "swipe",
+        "Direction": "right",
+        "Fingers": 5,
+        "Action": {
+            "Type": "built-in",
+            "Action": "SwitchWorkspace"
+        }
+    },
+    {
+        "Name": "pinch",
+        "Direction": "in",
+        "Fingers": 5,
+        "Action": {
+            "Type": "commandline",
+            "Action": "dbus-send --type=method_call --dest=com.deepin.dde.Launcher /com/deepin/dde/Launcher com.deepin.dde.Launcher.Toggle"
+        }
+    },
+    {
+        "Name": "pinch",
+        "Direction": "out",
+        "Fingers": 5,
+        "Action": {
+            "Type": "commandline",
+            "Action": "/usr/lib/deepin-daemon/desktop-toggle"
+        }
+    }
+]

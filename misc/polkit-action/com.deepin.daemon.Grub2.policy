@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+"http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+	<vendor>LinuxDeepin</vendor>
+	<vendor_url>https://www.deepin.com/</vendor_url>
+	<action id="com.deepin.daemon.Grub2">
+		<description>Change the grub2 configuration</description>
+		<message>Authentication is required to change the grub2 configuration</message>
+		<defaults>
+			<allow_any>no</allow_any>
+			<allow_inactive>no</allow_inactive>
+			<allow_active>auth_admin_keep</allow_active>
+		</defaults>
+		<description xml:lang="mn">grub2-ийн тохиргоог өөрчлөх</description>
+		<message xml:lang="mn">grub2-ийн тохиргоог өөрчлөхийн тулд батгалгаажуулалт шаардана</message>
+		<description xml:lang="ru">Изменить конфигурацию grub2</description>
+		<message xml:lang="ru">Для изменения конфигурации grub2 требуется аутентификация</message>
+		<description xml:lang="zh_TW">變更 GRUB2 組態設定</description>
+		<message xml:lang="zh_TW">變更 GRUB2 組態設定需要驗證</message>
+		<description xml:lang="ro">Schimbare configurare grub2</description>
+		<message xml:lang="ro">Autentificare necesară pentru schimbare configurare grub2</message>
+		<description xml:lang="hi_IN">grub2 की विन्यास सेटिंग्स बदलें</description>
+		<message xml:lang="hi_IN">grub2 की विन्यास सेटिंग्स बदलने हेतु प्रमाणीकरण आवश्यक है</message>
+		<description xml:lang="uk">Змініть конфігурацію grub2</description>
+		<message xml:lang="uk">Аутентифікація потрібна для зміни конфігурації grub2</message>
+		<description xml:lang="lt">Keisti grub2 konfigūraciją</description>
+		<message xml:lang="lt">Norint keisti grub2 konfigūraciją, reikalingas tapatybės nustatymas</message>
+		<description xml:lang="fa">تغییر تنظیمات گراب2</description>
+		<message xml:lang="fa">احراز هویت برای تغییر تنظیمات گراب2  لازم است</message>
+		<description xml:lang="bg">Промяна на конфигурацията на grub2</description>
+		<message xml:lang="bg">Необходима е идентификация за промяна на конфигурацията на grub2</message>
+		<description xml:lang="it">Cambia la configurazione di Grub2</description>
+		<message xml:lang="it">Autentificazione necessaria per modificare la configurazione di Grub2</message>
+		<description xml:lang="sw">Geuza usanidi wa grub2</description>
+		<message xml:lang="sw">Thibitisha inahitaji kugeuza usanidi wa grub2</message>
+		<description xml:lang="bn">Grub2 কনফিগারেশন পরিবর্তন করুন</description>
+		<message xml:lang="bn">Grub2 কনফিগারেশন পরিবর্তন করার জন্য প্রমাণীকরণের প্রয়োজন</message>
+		<description xml:lang="sk">Zmena konfigurácie grub2</description>
+		<message xml:lang="sk">Na zmenu konfigurácie grub2 je potrebné overenie</message>
+		<description xml:lang="am_ET">መቀየሪያ grub2 ማሰናጃ</description>
+		<message xml:lang="am_ET">ማረጋገጫ ያስፈልጋል grub2 ማሰናጃ ለ መቀየር</message>
+		<description xml:lang="nl">Wijzig de grub2-configuratie</description>
+		<message xml:lang="nl">Authenticatie is vereist om de configuratie van grub2 te wijzigen</message>
+		<description xml:lang="ja">grub2 の設定を変更</description>
+		<message xml:lang="ja">grub2 の設定を変更するには認証が必要です</message>
+		<description xml:lang="cs">Změnit nastavení zavaděče grub2</description>
+		<message xml:lang="cs">Pro změnu nastavení grub2 je požadováno ověření se</message>
+		<description xml:lang="ug">نۆۋەتتىكى grub2 تەڭشىكىنى ئۆزگەرتىش </description>
+		<message xml:lang="ug">دەلىللەش مەشغۇلاتى grub2 نى ئۆزگەرتىشنى تەلەپ قىلىدۇ</message>
+		<description xml:lang="ca">Canvieu la configuració del grub2.</description>
+		<message xml:lang="ca">Cal autenticació per canviar la configuració del grub2</message>
+		<description xml:lang="sv">Ändra grub2 konfigurationen</description>
+		<message xml:lang="sv">Autentisering krävs för att ändra grub2 konfigurationen</message>
+		<description xml:lang="hu">Módosítsa a grub2 konfigurációt</description>
+		<message xml:lang="hu">Hitelesítés szükséges a grub2 konfiguráció módosítához </message>
+		<description xml:lang="el">Aλλαγή της διαμόρφωση grub2</description>
+		<message xml:lang="el">Απαιτείται πιστοποίηση για αλλαγή της διαμόρφωση grub2</message>
+		<description xml:lang="sr">Промени grub2 поставке</description>
+		<message xml:lang="sr">Идентификација је неопходна за промену grub2 поставки</message>
+		<description xml:lang="id">Ubah konfigurasi grub 2</description>
+		<message xml:lang="id">Autentikasi dibutuhkan untuk mengubah konfigurasi grub2</message>
+		<description xml:lang="ms">Ubah konfigurasi grub2</description>
+		<message xml:lang="ms">Pengesahihan diperlukan untuk mengubah konfigurasi grub2</message>
+		<description xml:lang="es">Cambiar la configuración de grub2</description>
+		<message xml:lang="es">Modificar la configuración de grub2 requiere autorización</message>
+		<description xml:lang="tr">Grub2 yapılandırmasını değiştir</description>
+		<message xml:lang="tr">Grub2 yapılandırması değişimi için kimlik doğrulaması gerekli</message>
+		<description xml:lang="en_AU">Change the grub2 configuration</description>
+		<message xml:lang="en_AU">Authentication is required to change the grub2 configuration</message>
+		<description xml:lang="pt_BR">Alterar configurações do Gerenciador de Inicialização</description>
+		<message xml:lang="pt_BR">A autenticação é necessária para alterar as configurações do gerenciador de inicialização</message>
+		<description xml:lang="de">Grub2-Konfiguration ändern</description>
+		<message xml:lang="de">Authentifizierung ist erforderlich, um die grub2-Konfiguration zu ändern</message>
+		<description xml:lang="fr">Changer la configuration de grub2</description>
+		<message xml:lang="fr">L'authentification est nécessaire pour changer la configuration de grub2</message>
+		<description xml:lang="es_419">Cambiar la configuración del grub2</description>
+		<message xml:lang="es_419">Se requiere autenticación para cambiar la configuración de grub2</message>
+		<description xml:lang="ast">Cambéu de la configuración de GRUB</description>
+		<message xml:lang="ast">Ríquese l'autenticación pa camudar la configuración de GRUB</message>
+		<description xml:lang="pt">Alterar a configuração do grub2</description>
+		<message xml:lang="pt">É necessária a autenticação para alterar a configuração do grub2</message>
+		<description xml:lang="ne">ग्रुब 2 कन्फिगरेसन परिवर्तन गर्नुहोस्</description>
+		<message xml:lang="ne">ग्रुब 2 कन्फिगरेसन परिवर्तन गर्न प्रमाणीकरण आवश्यक छ</message>
+		<description xml:lang="da">Ændr grub2-konfigurationen</description>
+		<message xml:lang="da">Der kræves autentifikation for at ændre grub2-konfigurationen</message>
+		<description xml:lang="fi">Muuta grub2-kokoonpanoa</description>
+		<message xml:lang="fi">Grub2-kokoonpanon muuttaminen vaatii tunnistautumisen</message>
+		<description xml:lang="vi">Thay đổi cấu hình grub2</description>
+		<message xml:lang="vi">Cần có chứng nhận để thay đổi cấu hình grub2</message>
+		<description xml:lang="sl">Spremenite konfiguracijo grub2</description>
+		<message xml:lang="sl">Za spreminjanje konfiguracije grub2 je potrebna avtentikacija</message>
+		<description xml:lang="az">Grub2 konfiqurasiyasını dəyişdirin</description>
+		<message xml:lang="az">Grup2 konfiqurasiyasını dəyişdirmək üçün autentifikasiya tələb olunur</message>
+		<description xml:lang="pl">Zmień konfigurację grub2</description>
+		<message xml:lang="pl">Wymagane jest uwierzytelnienie, aby móc zmienić konfigurację grub2</message>
+		<description xml:lang="ko">grub2 환경설정 변경</description>
+		<message xml:lang="ko">grub2 환경설정을 변경하려면 인증이 필요합니다</message>
+		<description xml:lang="zh_CN">修改 grub2 配置</description>
+		<message xml:lang="zh_CN">修改 grub2 配置需要认证</message>
+		<description xml:lang="eo">Ŝanĝi la agordojn de grub2</description>
+		<message xml:lang="eo">Aŭtentigo bezonatas por ŝanĝi la agordojn de grub2</message>
+		<description xml:lang="en_GB">Change the grub2 configuration</description>
+		<message xml:lang="en_GB">Authentication is required to change the grub2 configuration</message>
+		<description xml:lang="hr">Izmjeni grub2 konfiguraciju</description>
+		<message xml:lang="hr">Potrebna je ovjera za izmjenu grub2 konfiguracije</message>
+		<description xml:lang="gl_ES">Cambiar a configuración de grub2</description>
+		<message xml:lang="gl_ES">Requírese autenticación para cambiar a configuración de grub2</message>
+		<description xml:lang="ar">تعديل إعدادات grub2</description>
+		<message xml:lang="ar"> المصادقة مطلوبة لتغيير إعدادات grub2</message>
+	</action>
+	<action id="com.deepin.daemon.grub2.prepare-gfxmode-detect">
+		<description>Prepare grub2 display resolution detection</description>
+		<message>Authentication is required to prepare grub2 display resolution detection</message>
+		<defaults>
+			<allow_any>no</allow_any>
+			<allow_inactive>no</allow_inactive>
+			<allow_active>auth_admin_keep</allow_active>
+		</defaults>
+		<description xml:lang="ru">Подготовка Grub2 к определению разрешения экрана</description>
+		<message xml:lang="ru">Для определения разрешения экрана grub2 требуется аутентификация</message>
+		<description xml:lang="zh_TW">準備 GRUB2 顯示解析度偵測程序</description>
+		<message xml:lang="zh_TW">準備 GRUB2 顯示解析度偵測程序需要認證</message>
+		<description xml:lang="ro"> Preparere detectare rezoluție afișare grub2</description>
+		<message xml:lang="ro">Autentificare necesară pentru preparere detectare rezoluție afișare grub2</message>
+		<description xml:lang="uk">Підготовка grub2 до визначення роздільної здатності екрану</description>
+		<message xml:lang="uk">Потрібна аутентифікація для підготовки визначення роздільної здатності екрану grub2</message>
+		<description xml:lang="lt">Paruošti grub2 atvaizdavimo raiškos aptikimą</description>
+		<message xml:lang="lt">Norint paruošti grub2 atvaizdavimo raiškos aptikimą, reikalingas tapatybės nustatymas</message>
+		<description xml:lang="fa">تشخیص وضوح صفحه نمایش grub2 را آماده کن</description>
+		<message xml:lang="fa">احتیاج به احراز هویت برای  آماده سازی تشخیص وضوح صفحه نمایش grub2 است</message>
+		<description xml:lang="bg">Подготвяне на grub2 за засичане на разделителната способност на дисплея</description>
+		<message xml:lang="bg">Идентификацията е необходима, за да се подготви grub2 да засече разделителната способност на дисплея</message>
+		<description xml:lang="it">Preparazione rilevazione automatica della risoluzione Grub2</description>
+		<message xml:lang="it">Autenticazione richiesta per la rilevazione automatica della risoluzione in Grub2</message>
+		<description xml:lang="sw">Tengeneza ugunduzi uonyesho mwonekano wa grub2</description>
+		<message xml:lang="sw">Thibitisha inahitaji kutengeneza ugunduzi uonyesho mwokekano wa grub2</message>
+		<description xml:lang="bn">grup2 এর ডিসপ্লে রেজূূলিউশান সনাক্ত করন প্রস্তুত করুন</description>
+		<message xml:lang="bn">grup2 এর ডিসপ্লে রেজূূলিউশান সনাক্ত করার জন্যে প্রমাণীকরণ প্রয়োজন</message>
+		<description xml:lang="sk">Pripraviť detekciu rozlíšenia obrazovky grub2</description>
+		<message xml:lang="sk">Na prípravu detekcie rozlíšenia displeja grub2 je potrebné overenie</message>
+		<description xml:lang="nl">Grub2 schermresolutie detectie voorbereiden</description>
+		<message xml:lang="nl">Authenticatie is vereist om de grub2 schermresolutie detectie voor te bereiden</message>
+		<description xml:lang="ja">grub2 の画面解像度検出を準備</description>
+		<message xml:lang="ja">grub2 の画面解像度検出を準備するには認証が必要です</message>
+		<description xml:lang="cs">Připravit zjištění rozlišení obrazovky grub2</description>
+		<message xml:lang="cs">Pro zjištění rozlišení obrazovky grub2 je požadováno ověření se</message>
+		<description xml:lang="ca">Preparació de la detecció de la resolució de pantalla per al grub2.</description>
+		<message xml:lang="ca">Cal autenticació per preparar la detecció de la resolució de pantalla per al grub2.</message>
+		<description xml:lang="sv">Förbereder grub2 till att detektera skärmupplösning</description>
+		<message xml:lang="sv">Autentisering krävs för att förbereda grub2 till att detektera skärmupplösning </message>
+		<description xml:lang="hu">Grub2 képernyőfelbontás érzékelés.</description>
+		<message xml:lang="hu">Hitelesítés szükséges a grub2 képernyőfelbontás érzékeléshez</message>
+		<description xml:lang="el">Προετοιμάστε την ανίχνευση ανάλυσης grub2</description>
+		<message xml:lang="el">Απαιτείται έλεγχος ταυτότητας για την προετοιμασία ανίχνευσης ανάλυσης grub2</message>
+		<description xml:lang="sr">Припреми grub2 откривања резолуције екрана</description>
+		<message xml:lang="sr">Идентификација је неопходна за припрему grub2 откривања резолуције екрана</message>
+		<description xml:lang="ms">Persediaan pengecaman resolusi paparan grub2</description>
+		<message xml:lang="ms">Pengesahihan diperlukan untuk persediaan pengecaman resolusi paparan grub2</message>
+		<description xml:lang="es">Preparar la detección de resolución de pantalla en grub2</description>
+		<message xml:lang="es">Se requiere autenticación para preparar la detección de resolución de pantalla en grub2</message>
+		<description xml:lang="tr">Grub2 ekran çözünürlüğü algılaması hazırlama</description>
+		<message xml:lang="tr">Grub2 ekran çözünürlüğü algılamasını hazırlamak için kimlik doğrulama gereklidir</message>
+		<description xml:lang="en_AU">Prepare grub2 display resolution detection</description>
+		<message xml:lang="en_AU">Authentication is required to prepare grub2 display resolution detection</message>
+		<description xml:lang="pt_BR">Preparar a detecção da resolução de exibição do grub2</description>
+		<message xml:lang="pt_BR">A autenticação é necessária para alterar a resolução de exibição do gerenciador de inicialização</message>
+		<description xml:lang="de">Prepare grub2 display resolution detection</description>
+		<message xml:lang="de">Authentifizierung ist erforderlich, um die Erkennung der grub2-Display-Auflösung vorzubereiten.</message>
+		<description xml:lang="fr">Préparer la détéction de la résolution d'écran grub2</description>
+		<message xml:lang="fr">Une authentification est nécessaire afin de préparer la détection de la résolution d'écran grub2</message>
+		<description xml:lang="pt">Preparar a deteção de resolução de visualização do grub2</description>
+		<message xml:lang="pt">É necessária a autenticação para preparar a deteção da resolução de visualização do grub2</message>
+		<description xml:lang="da">Forbered registrering af grub2-skærmopløsning</description>
+		<message xml:lang="da">Der kræves autentifikation for at forberede registrering af grub2-skærmopløsning</message>
+		<description xml:lang="fi">Näytön grub2 tarkkuuden tunnistus</description>
+		<message xml:lang="fi">Tunnistautuminen vaaditaan grub2 tarkkuuden havaitsemiseksi</message>
+		<description xml:lang="vi">Chuẩn bị phát hiện độ phân giải màn hình grub2</description>
+		<message xml:lang="vi">Cần phải xác thực để chuẩn bị phát hiện độ phân giải màn hình grub2</message>
+		<description xml:lang="pl">Przygotuj wykrywanie rozdzielczości wyświetlacza grub2</description>
+		<message xml:lang="pl">Uwierzytelnianie jest wymagane do przygotowania wykrywania rozdzielczości grub2</message>
+		<description xml:lang="ko">grub2 디스플레이 해상도 감지 준비</description>
+		<message xml:lang="ko">grub2 디스플레이 해상도 감지를 준비하려면 인증이 필요합니다</message>
+		<description xml:lang="zh_CN">预备grub2显示分辨率探测</description>
+		<message xml:lang="zh_CN">预备grub2显示分辨率探测需要认证</message>
+		<description xml:lang="gl_ES">Preparar a detección da resolución de pantaia grub2</description>
+		<message xml:lang="gl_ES">Requírese autenticación para preparar a detección da resolución de pantaia grub2</message>
+		<description xml:lang="ar">تجهيز grub2 لدقة الشاشة</description>
+		<message xml:lang="ar"> المصادقة مطلوبة لتجهيز الاكتشاف التلقائي ل grub2 لدقة الشاشة</message>
+	</action>
+</policyconfig>
